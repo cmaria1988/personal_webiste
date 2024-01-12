@@ -135,11 +135,39 @@ header h2 span {
 }
 
 #resources li {
-    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     line-height: 30px;
     list-style: none;
 }
+
+/****** Skills ******/
+#skills {
+    background-color: #dcd2d7;
+    text-align: center;
+}
+
+#skills .full-width {
+    padding: 85px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    width: 51%;
+}
+
+#skills h2{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    line-height: 32px;
+}
+
 
 /****** Contact ******/
 
@@ -209,7 +237,8 @@ header h2 span {
 }
 
 .bio p {
-    font-family: 'Merriweather', serif;
+    /*font-family: 'Merriweather', serif;*/
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     line-height: 30px;
     padding: 10px 0;
@@ -223,6 +252,38 @@ header h2 span {
     font-size: 24px;
 }
 
+.bio-image{
+    border: white solid 12px;
+}
+
+.resource img{
+    width: 95%;
+    border: rgb(241, 232, 228) solid 5px;
+}
+
+.skill-bold{
+    font-weight: bold;
+}
+
+
+#contact a{
+    font-size: 16px;
+}
+
+#contact img{
+    padding-right: 5px;
+}
+
+.bio-image img{
+    width: 400px;
+}
+
+.bio ul{
+    margin:0;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    list-style: circle;
+}
 
 @media screen and (min-width: 760px) {
 
@@ -263,6 +324,17 @@ header h2 span {
         width: 30%;
     }
 
+    #skills .full-width {
+        padding: 85px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .skill {
+        width: 10%;
+    }
+
     #about .full-width {
         justify-content: space-around;
     }
@@ -289,27 +361,4 @@ header h2 span {
     #about p {
         padding: 20px 0;
     }
-}
-
-#contact a{
-    font-size: 16px;
-}
-
-#contact img{
-    padding-right: 5px;
-}
-
-.bio-image img{
-    width: 400px;
-}
-
-.bio-image{
-    border: white solid 12px;
-}
-
-.bio ul{
-    margin:0;
-    font-family: 'Merriweather', serif;
-    font-size: 16px;
-    list-style: circle;
 }
