@@ -54,8 +54,9 @@ header .full-width {
 header h1 {
     width: 100%;
     padding: 15px 0;
-    font-family: 'Merriweather', serif;
-    font-size: 1.8em;
+    /*font-family: 'Merriweather', serif;*/
+    font-family: 'Dosis', sans-serif;
+    font-size: 3em;
     color: #f1e0cb;
     text-align: center;
 }
@@ -79,7 +80,6 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
-    padding: 0;
 }
 
 nav ul li a {
@@ -108,10 +108,11 @@ header h2 span {
 #resources {
     background-color: #ebd6d1;
     text-align: center;
+    padding: 85px 0;
 }
 
 #resources .full-width {
-    padding: 85px 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -148,7 +149,6 @@ header h2 span {
 }
 
 #skills .full-width {
-    padding: 85px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -313,8 +313,11 @@ header h2 span {
         padding: 40px 0;
     }
 
-    #resources .full-width {
+    #resources{
         padding: 85px 0;
+    }
+
+    #resources .full-width {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -325,7 +328,6 @@ header h2 span {
     }
 
     #skills .full-width {
-        padding: 85px 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
